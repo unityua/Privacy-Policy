@@ -1,0 +1,10 @@
+/* 1in8b personal mod */
+.p-mod .mod-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.p-mod .mod-chips button[aria-pressed="true"] { background: var(--accent, #8c1d3c); color: #fff; border-color: transparent; }
+.p-mod .mod-chips button:disabled { opacity: .4; cursor: not-allowed; }
+.p-mod .mod-sub { margin-top: 14px; display: block; }
+.mod-opt select { max-width: 100%; }
+.p-mod .mod-status { margin-top: 10px; font-size: 13px; color: var(--ink3, #6b7177); }
+.mod-dec-img { display: block; width: 100%; height: auto; aspect-ratio: 192 / 60; image-rendering: pixelated; border-radius: 6px; margin: 0 0 12px; }
+.p-mod .mod-ctx { margin: 4px 0 8px; font-size: 13.5px; color: var(--accent, #8c1d3c); font-weight: 600; }
+.p-mod .mod-here button:not(:disabled) { border-color: var(--accent, #8c1d3c); }
